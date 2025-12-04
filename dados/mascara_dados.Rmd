@@ -1,0 +1,27 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+```
+```{r}
+dadosCurso %>% colnames()
+```
+
+
+```{r}
+codigo = dadosCurso %>% 
+  select(MATRICULA) %>%
+  distinct() %>%
+  mutate(MATRICULA_MASCARADA = row_number())
+
+dados_mascarados = dadosCurso %>%
+  inner_join(codigo) %>%
+  select(-MATRICULA)
+```
+```{r}
+dados_mascarados %>% write_csv("historico_alunos.csv")
+```
+

@@ -1,2 +1,2 @@
 # evasao-novo-curriculo-ufcg
-Estudo Sobre Evasão no Novo Currículo – UFCG  Este repositório contém os dados e scripts utilizados na pesquisa “Estudo Sobre Evasão no Novo Currículo”, desenvolvida no Programa de Pós-Graduação em Ciência da Computação da Universidade Federal de Campina Grande (UFCG).
+Repositório contendo os dados e scripts utilizados no estudo “Estudo Sobre Evasão no Novo Currículo” da Universidade Federal de Campina Grande (UFCG). Inclui tabelas tratadas, scripts de análise, documentação e instruções para reprodução dos resultados apresentados na dissertação.
